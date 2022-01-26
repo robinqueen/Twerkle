@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:twerkle="clr-namespace:Twerkle"
+             x:Class="Twerkle.MainPage">
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" >
+
+        <Frame BackgroundColor="DarkSlateGray"  >
+            <StackLayout>
+                <Label Text="TWERKLE!" HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
+                <Label Text="Guess the name of the Twerker Below in 4 Tries" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+                <Label Text="IE- First name, last name, and known nicknames." HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </StackLayout>
+
+        </Frame>
+
+        <StackLayout>
+            <Grid BackgroundColor="Black" Padding="5"  x:Name="PlayerGridG1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Entry x:Name="Letter1" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="1" Completed="Entry_Completed"  TextChanged="Letter1_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="Letter2" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="2" Completed="Entry_Completed" TextChanged="Letter2_TextChanged" MaxLength="1"></Entry>
+                <Entry x:Name="Letter3" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="3" Completed="Entry_Completed" TextChanged="Letter3_TextChanged" MaxLength="1"></Entry>
+                <Entry x:Name="Letter4" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="4" Completed="Entry_Completed" TextChanged="Letter4_TextChanged" MaxLength="1"></Entry>
+                <Entry x:Name="Letter5" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="5" Completed="Entry_Completed"  MaxLength="1"></Entry>
+
+
+            </Grid>
+        </StackLayout>
+
+        <StackLayout>
+            <Grid BackgroundColor="Black" Padding="5"  x:Name="PlayerGridG2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Entry x:Name="G2Letter1" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="1" Completed="Entry_Completed" TextChanged="G2Letter1_TextChanged"  MaxLength="1"  ></Entry>
+                <Entry x:Name="G2Letter2" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="2" Completed="Entry_Completed" TextChanged="G2Letter2_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G2Letter3" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="3" Completed="Entry_Completed" TextChanged="G2Letter3_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G2Letter4" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="4" Completed="Entry_Completed" TextChanged="G2Letter4_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G2Letter5" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="5" Completed="Entry_Completed"  MaxLength="1" ></Entry>
+
+
+            </Grid>
+        </StackLayout>
+
+        <StackLayout>
+            <Grid BackgroundColor="Black" Padding="5"  x:Name="PlayerGridG3" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Entry x:Name="G3Letter1" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="1" Completed="Entry_Completed" TextChanged="G3Letter1_TextChanged"  MaxLength="1"  ></Entry>
+                <Entry x:Name="G3Letter2" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="2" Completed="Entry_Completed" TextChanged="G3Letter2_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G3Letter3" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="3" Completed="Entry_Completed" TextChanged="G3Letter3_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G3Letter4" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="4" Completed="Entry_Completed" TextChanged="G3Letter4_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G3Letter5" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="5" Completed="Entry_Completed"  MaxLength="1" ></Entry>
+
+
+            </Grid>
+        </StackLayout>
+
+        <StackLayout>
+            <Grid BackgroundColor="Black" Padding="5"  x:Name="PlayerGridG4" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                    <RowDefinition  Height="auto" />
+                </Grid.RowDefinitions>
+
+                <Entry x:Name="G4Letter1" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="1" Completed="Entry_Completed" TextChanged="G4Letter1_TextChanged"  MaxLength="1"  ></Entry>
+                <Entry x:Name="G4Letter2" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="2" Completed="Entry_Completed" TextChanged="G4Letter2_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G4Letter3" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="3" Completed="Entry_Completed" TextChanged="G4Letter3_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G4Letter4" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="4" Completed="Entry_Completed" TextChanged="G4Letter4_TextChanged"  MaxLength="1" ></Entry>
+                <Entry x:Name="G4Letter5" BackgroundColor="White" TextTransform="Uppercase" FontSize="40" Grid.Column="5" Completed="Entry_Completed"  MaxLength="1" ></Entry>
+
+
+            </Grid>
+        </StackLayout>
+
+
+
+    </StackLayout>
+
+
+
+</ContentPage>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>Robin’s iPhone</SelectedDevice>
+    <ActiveDebugProfile>Robin’s iPhone</ActiveDebugProfile>
+    <DeveloperId>robinqueen94%40gmail.com</DeveloperId>
+    <DevelopmentTeamId>QR332QN37U</DevelopmentTeamId>
+  </PropertyGroup>
+</Project>

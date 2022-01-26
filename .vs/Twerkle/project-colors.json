@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ab8e2cc-977d-4c16-a9ff-624a62d459a4": {
+      "ProjectGuid": "5ab8e2cc-977d-4c16-a9ff-624a62d459a4",
+      "DisplayName": "Twerkle",
+      "ColorIndex": 0
+    },
+    "7a5ac23c-b7ba-4999-b73c-8b5d43965715": {
+      "ProjectGuid": "7a5ac23c-b7ba-4999-b73c-8b5d43965715",
+      "DisplayName": "Twerkle.iOS",
+      "ColorIndex": 1
+    },
+    "0dd206bf-58e7-44e9-98af-9a273c6adfec": {
+      "ProjectGuid": "0dd206bf-58e7-44e9-98af-9a273c6adfec",
+      "DisplayName": "Twerkle.Android",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

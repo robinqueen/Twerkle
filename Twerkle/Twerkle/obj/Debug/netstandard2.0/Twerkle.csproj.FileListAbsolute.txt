@@ -1,0 +1,16 @@
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\bin\Debug\netstandard2.0\Twerkle.deps.json
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\bin\Debug\netstandard2.0\Twerkle.dll
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\bin\Debug\netstandard2.0\ref\Twerkle.dll
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\bin\Debug\netstandard2.0\Twerkle.pdb
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.AssemblyInfoInputs.cache
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.AssemblyInfo.cs
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.csproj.CoreCompileInputs.cache
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.dll
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\ref\Twerkle.dll
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.pdb
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\WordEntries.xaml.g.cs
+C:\Users\robin\source\repos\Twerkle\Twerkle\Twerkle\obj\Debug\netstandard2.0\Twerkle.csproj.AssemblyReference.cache
